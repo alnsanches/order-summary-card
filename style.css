@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/pattern-background-desktop.svg);
+}
+
+.container {
+    margin-top: 60px;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text {
+    padding: 15px;
+}
+
+.text h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.text p {
+    text-align: center;
+}
+
+.hero {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+p {
+    color: hsl(228, 25%, 57%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.plano {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 6px;
+    height: 70px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.music {
+    margin: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+.price {
+    margin-left: -80px;
+    font-size: 16px;
+    margin-top: -16px;
+}
+
+.change {
+    margin-top: -80px;
+    margin-bottom: 60px;
+}
+
+.trocar {
+    font-size: 12px;
+    margin-left: 285px;
+}
+
+button {
+    width: 100%;    
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.pagar {
+    padding: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 94%);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.pagar:hover {
+    background-color: hsl(223, 47%, 23%);
+}
+
+.cancelar {
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/*
+footer {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 680px;
+    margin-left: -350px;
+}
+
+footer a {
+    color: hsl(228, 45%, 44%);
+}
