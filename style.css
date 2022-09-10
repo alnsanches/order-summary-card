@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     box-sizing: border-box;
     font-family: 'Red Hat Display', sans-serif;
     background-size: contain;
@@ -15,7 +16,6 @@ body {
 }
 
 .container {
-    margin-top: 60px;
     width: 400px;
     height: 600px;
     background-color: white;
